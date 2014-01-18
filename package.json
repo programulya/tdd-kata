@@ -12,6 +12,17 @@
   "scripts": {
     "test": "mocha"
   },
+  "testling": {
+        "browsers": {
+            "ie": [ 8, 9, 10, 11 ],
+            "firefox": [ 13 ],
+            "chrome": [ 20 ],
+            "safari": [ 5.1 ],
+            "opera": [ 12 ]
+        },
+        "harness": "mocha",
+        "files": "test/*.js"
+  },
   "author": "programulya",
   "license": "mit"
 }
