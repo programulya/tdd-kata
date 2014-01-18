@@ -2,4 +2,4 @@
 
 [![browser support](https://ci.testling.com/programulya/TDDKata.png)](https://ci.testling.com/programulya/TDDKata)
 
-TDD Kata using mocha and should packages.
+TDD Kata using mocha and should packages. Use Travis and Testling CI.
