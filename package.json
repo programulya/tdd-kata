@@ -1,0 +1,17 @@
+{
+  "name": "TDDKata",
+  "version": "0.0.0",
+  "description": "TDD Kata",
+  "main": "calc.js",
+  "dependencies": {
+    "should": "~3.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "programulya",
+  "license": "mit"
+}
