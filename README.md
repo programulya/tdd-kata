@@ -1,3 +1,3 @@
-#TDDKata
+#TDD Kata
 
-TDD Kata using JavaScript
+TDD Kata using mocha and should packages.
