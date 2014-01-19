@@ -2,11 +2,11 @@ var should = require("should");
 var calc = require("../source/calc");
 
 describe("calc spec", function() {
-    it("should calc exist", function() {
+    it("should calc exists", function() {
         should(calc).be.ok;
     });
 
-    it("should  return 0 for empty string ", function() {
+    it("should return 0 for empty string", function() {
         should(calc.add("")).equal(0);
     });
 
@@ -26,16 +26,16 @@ describe("calc spec", function() {
         should(calc.add("1,2,2")).equal(5);
     });
 
-    it("should return 5 for 1,1,1,1,1", function() {
-        should(calc.add("1,1,1,1,1")).equal(5);
+    it("should return 5 for 1,2,1,3,5", function() {
+        should(calc.add("1,2,1,3,5")).equal(12);
     });
 
     it("should return 6 with new line separator", function() {
         should(calc.add("3,1\n2")).equal(6);
     });
 
-    describe("different delimiters", function() {
-        it("should return 6 with custom delimiters", function() {
+    describe("custom delimiter", function() {
+        it("should return 6 with custom delimiter", function() {
             should(calc.add("\\;\n3;1;2")).equal(6);
         });
 
