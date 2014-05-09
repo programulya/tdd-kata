@@ -2,4 +2,4 @@
 
 [![browser support](https://ci.testling.com/programulya/TDDKata.png)](https://ci.testling.com/programulya/tdd-kata)
 
-TDD Kata using mocha and should packages. Use Travis and Testling CI.
+TDD Kata (string calculator <a>http://osherove.com/tdd-kata-1/</a>) using mocha and should packages, Travis and Testling CI.
