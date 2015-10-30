@@ -38,7 +38,6 @@ describe("calc spec", function() {
         it("should return 6 with custom delimiter", function() {
             should(calc.add("\\;\n3;1;2")).equal(6);
         });
-
     });
 
     describe("negative numbers", function() {
