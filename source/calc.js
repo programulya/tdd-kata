@@ -1,6 +1,7 @@
 var calc = {
     add: function(str) {
         var defaultDelimiter = /\n|,/;
+
         if (str.indexOf("\\") === 0) {
             var customDelimiter = str.substring(2, 1);
             defaultDelimiter = new RegExp(customDelimiter);

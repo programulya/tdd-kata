@@ -26,7 +26,7 @@ describe("calc spec", function() {
         should(calc.add("1,2,2")).equal(5);
     });
 
-    it("should return 5 for 1,2,1,3,5", function() {
+    it("should return 12 for 1,2,1,3,5", function() {
         should(calc.add("1,2,1,3,5")).equal(12);
     });
 
@@ -38,7 +38,6 @@ describe("calc spec", function() {
         it("should return 6 with custom delimiter", function() {
             should(calc.add("\\;\n3;1;2")).equal(6);
         });
-
     });
 
     describe("negative numbers", function() {
